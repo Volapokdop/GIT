@@ -1,0 +1,42 @@
+[1mdiff --git a/.vs/434/v16/.suo b/.vs/434/v16/.suo[m
+[1mindex d33cc67..6ab2820 100644[m
+Binary files a/.vs/434/v16/.suo and b/.vs/434/v16/.suo differ
+[1mdiff --git a/.vs/434/v16/Browse.VC.db b/.vs/434/v16/Browse.VC.db[m
+[1mindex 604af94..07d0256 100644[m
+Binary files a/.vs/434/v16/Browse.VC.db and b/.vs/434/v16/Browse.VC.db differ
+[1mdiff --git a/434/Debug/434.tlog/link.read.1.tlog b/434/Debug/434.tlog/link.read.1.tlog[m
+[1mindex 47cd6a4..5548bc7 100644[m
+Binary files a/434/Debug/434.tlog/link.read.1.tlog and b/434/Debug/434.tlog/link.read.1.tlog differ
+[1mdiff --git a/434/Debug/Source.obj b/434/Debug/Source.obj[m
+[1mindex 8637439..017ab8a 100644[m
+Binary files a/434/Debug/Source.obj and b/434/Debug/Source.obj differ
+[1mdiff --git a/434/Debug/vc142.idb b/434/Debug/vc142.idb[m
+[1mindex 63b4c85..f41bcae 100644[m
+Binary files a/434/Debug/vc142.idb and b/434/Debug/vc142.idb differ
+[1mdiff --git a/434/Debug/vc142.pdb b/434/Debug/vc142.pdb[m
+[1mindex 7aec0eb..f67dc1d 100644[m
+Binary files a/434/Debug/vc142.pdb and b/434/Debug/vc142.pdb differ
+[1mdiff --git a/434/Source.c b/434/Source.c[m
+[1mindex 093b750..31ef256 100644[m
+[1m--- a/434/Source.c[m
+[1m+++ b/434/Source.c[m
+[36m@@ -33,10 +33,6 @@[m [mfloat* trans_array(float* a, int n, float max) {[m
+     return a;[m
+ }[m
+ [m
+[31m-float add_array(float a, float n) {[m
+[31m-    float c = a + n;[m
+[31m-}[m
+[31m-[m
+ void output_array(float *a, int n) {[m
+     for (int i = 0; i < n; i++) {[m
+         printf("%f\n", a[i]);[m
+[1mdiff --git a/Debug/434.exe b/Debug/434.exe[m
+[1mindex 465bfe1..835ce30 100644[m
+Binary files a/Debug/434.exe and b/Debug/434.exe differ
+[1mdiff --git a/Debug/434.ilk b/Debug/434.ilk[m
+[1mindex 0e0703b..45bf5df 100644[m
+Binary files a/Debug/434.ilk and b/Debug/434.ilk differ
+[1mdiff --git a/Debug/434.pdb b/Debug/434.pdb[m
+[1mindex ab2b329..4c45443 100644[m
+Binary files a/Debug/434.pdb and b/Debug/434.pdb differ

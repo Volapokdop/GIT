@@ -33,8 +33,11 @@ float* trans_array(float* a, int n, float max) {
     return a;
 }
 
-float add_array(float a, float n) {
+float all_array(float a, float n) {
     float c = a + n;
+    c += a - n;
+    c += a * n;
+    c += a / n;
 }
 
 void output_array(float *a, int n) {

@@ -1,0 +1,1 @@
+Something text for diffirients, expect something else. It have'nt some sences. 
