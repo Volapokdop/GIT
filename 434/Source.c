@@ -33,6 +33,10 @@ float* trans_array(float* a, int n, float max) {
     return a;
 }
 
+float add_array(float a, float n) {
+    float c = a + n;
+}
+
 void output_array(float *a, int n) {
     for (int i = 0; i < n; i++) {
         printf("%f\n", a[i]);
