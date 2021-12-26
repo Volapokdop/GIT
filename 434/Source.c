@@ -33,11 +33,14 @@ float* trans_array(float* a, int n, float max) {
     return a;
 }
 
-float all_array(float a, float n) {
-    float c = a + n;
-    c += a - n;
-    c += a * n;
-    c += a / n;
+float find_min(float *a, int n) {
+    float min = a[0];
+    for (int i = 0; i < n; i++) {
+        if (a[i] < min) {
+            min = a[i];
+        }
+    }
+    return min;
 }
 
 void output_array(float *a, int n) {
